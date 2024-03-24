@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0052ff; /* A blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* White text for readability */
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 350px;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.token-logo {
+    width: 100%;
+    height: auto;
+}
+
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1652f0; /* A darker blue for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.buy-button:hover {
+    background-color: #0d3bd0;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
